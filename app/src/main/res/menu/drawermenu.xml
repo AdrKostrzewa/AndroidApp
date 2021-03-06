@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:showIn="navigation_view"
+android:checkableBehavior="single">
+<item
+    android:id="@+id/glowna"
+    android:icon="@drawable/ic_glowna"
+    android:title="Strona główna" />
+<item
+    android:id="@+id/menu"
+    android:title="Menu"
+    android:icon="@drawable/ic_menu"/>
+<item
+    android:id="@+id/galeria"
+    android:title="Galeria"
+    android:icon="@drawable/ic_galeria"
+    />
+<item
+    android:id="@+id/kontakt"
+    android:title="Kontakt"
+    android:icon="@drawable/ic_contact"/>
+</menu>
