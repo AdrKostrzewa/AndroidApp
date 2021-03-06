@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".kontakt_fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#255082"
-        android:gravity="center"
-        android:text="Kontakt"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#255082"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Kontakt"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large" />-->
+    <LinearLayout
 
-</FrameLayout>
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <fragment
+            android:id="@+id/mapfragment"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/textViewAdres"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:text="Dane adresowe: \n
+Piotrkowska 93\n
+90-423 Łódź\n
+537 039 198\n
+info@gastromachina.pl\n\n
+Godziny otwarcia:\n
+Dzisiaj:  14:15 - 20:00\n\n
+Zmiany w godzinach pracy:\n
+06.03.2021 14:15 - 20:00\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -6,19 +6,25 @@
     tools:context=".menu_fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="735dp"
-        android:background="#255082"
-        android:src="@drawable/screenshot1" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FF9800"
-        android:gravity="center"
-        android:text="Menu"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:layout_marginTop="2sp"
+        android:background="#255082"
+        android:gravity="left"
+        android:text="\n\n\nMENU\n\n\nBURGERY:\n\nKLASYCZNY KLASYK -20,50zł\n150g wołowiny, ogórek małosolny, pomidor, cebula czerwona, rukola, sałata, sos do wyboru    \n\nCHESSEBURGER -23.89\n
+150g wołowiny, ser gouda, ogórek małosolny, cebula czerwona, rukola, sałata, sos do wyboru\n\nCHESSE AND BACON -25.99\n
+150g wołowiny, ser gouda, boczek, ogórek małosolny, pomidor, cebula czerwona, rukola, sałata, sos do wyboru\n\nBURGER ŻART Z TROPIKÓW -35.00zł\n
+150g wołowiny, grillowany ananas, ser cheddar, prażony sezam, pomidor, cebula czerwona, rukola, sałata, sos curry \n\n\n\n\nLOKALNY GASTRORYNECZEK:\n\nCiacho 1 szt -8.00zł.
+\nMEGA CIACHO kakaowe z płatkami owsianymi i orzechami\n\nWędlina z naszej wędzarni -30.00zł\n200g wędzonej w naszej wędzarni wędliny w plastrach pakowanej próżniowo.\n\nSmalec -10.00zł\n
+opakowanie 200g"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+    </ScrollView>
 
 </FrameLayout>

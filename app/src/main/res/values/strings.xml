@@ -1,5 +1,5 @@
 <resources>
-<string name="app_name">Gastro Machina</string>
+<string name="app_name"><font fgcolor='#FFFFFFFF'>Gastro Machina</font></string>
 <string name="open">Open</string>
 <string name="close">Close</string>
 <string name="glowna">Główna</string>

@@ -12,14 +12,15 @@
             android:id="@+id/toolbar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
+            android:background="#255082"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme" />
+
         <FrameLayout
             android:id="@+id/Fragment_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        </FrameLayout>
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"></FrameLayout>
     </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
